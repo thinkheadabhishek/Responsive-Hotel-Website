@@ -1,0 +1,38 @@
+.primary-bg{
+    background-color: #333;
+}
+
+.primary-color{
+    color:#f7c08a;
+}
+
+.secondary-color{
+    color: white;
+}
+
+.clr{
+    clear: both;
+}
+
+.btn{
+    display: inline-block;
+    font-size:1.3rem;
+    font-weight: 500;   
+    padding: 0.9rem;
+    margin-top: 3rem;
+}
+
+.btn-dark{
+    background-color: #333;
+    color: white;
+}
+
+.btn-light{
+    background-color: white;
+    color: black;
+}
+
+.btn:hover{
+    background-color: #444;
+    color:#f7c08a;
+}

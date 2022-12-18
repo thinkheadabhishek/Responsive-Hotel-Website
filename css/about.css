@@ -1,0 +1,137 @@
+#about{
+    height: 32rem;
+}
+
+#about-info{
+    padding-top: 4rem;
+    padding-left:9.6rem;
+    float: left;
+    width:50%;
+    height: 100%;
+}
+#about-info h1{
+    padding-bottom: 2.6rem;
+    font-size: 3.2rem;
+}
+#about-img{
+    float: right;
+    width:50%;
+    height: 100%;
+    padding-top: 4rem;
+    padding-left:9.6rem;
+    text-align: center;
+}
+#img{
+    padding:2rem;
+}
+#my-img{
+    width:60%;
+    height:60%;
+    border-radius: 50%;
+}
+
+.test{
+    background: url('../image_resources/test-bg.jpg') no-repeat center center/cover;
+    height:64rem;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.test h1{
+    color:white;
+    font-size: 4rem;
+    padding-top: 9.6rem;
+    padding-bottom: 5rem;
+}
+.testimonial{
+    background-color: #f7c08a;
+    height:fit-content;
+    width: 80%;
+    margin: 4rem auto;
+    padding: 2rem 3rem;
+    overflow: hidden;
+    border-radius: 0.6rem;
+    opacity: 0.7;
+
+}
+
+.testimonial .img-container{
+    float:left;
+    width: 20%;
+}
+.testimonial img{
+    width:6.5rem;
+    border-radius: 50%;
+
+}
+.testimonial p{
+    float: right;
+    height: 100%;
+    width: 80%;
+    text-align: left;
+}
+
+@media (max-width:1350px){
+    #about-info{
+        width:65%;
+        padding-left: 4rem;
+    }
+
+    #about-img{
+        width: 35%;
+        padding-left: 1rem;
+    }
+
+    #my-img{
+        width:100%;
+        height:100%;
+        border-radius: 50%;
+    }
+}
+
+@media (max-width:1100px){
+    #about-img{
+        float: none;
+        display: none;
+    }
+    #about-info{
+        float: none;
+        width: 100%;
+        padding: 4rem;
+    }
+
+    #about{
+        height: fit-content;
+    }
+
+    .testimonial .img-container{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .testimonial p{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .testimonial{
+        text-align: center;
+    }
+
+    .test{
+        height: fit-content;
+    } 
+
+}
+
+@media(max-width:670px){
+    .test h1 ,
+    #about-info h1{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        line-height: 1;
+    }
+}

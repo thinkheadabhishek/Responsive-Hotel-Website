@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html,body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height:1.8em;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+
+#container{
+    width:80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#container #logo{
+    float: left;
+}
+
+#container ul{
+    list-style: none;
+    float:right;
+}
+
+#container li{
+    float:left;
+}
+
+#container ul li a , 
+#container #logo a{
+    text-decoration: none;
+    font-weight: 700;
+    color : white;
+    display:block;
+    padding: 1.3rem 1.8rem;
+}
+
+
+#container ul li a:hover,
+#container ul li a.current
+{
+    background-color: #444;
+    color:#f7c08a;
+}
+
+#features{
+    overflow:hidden;
+    text-align: center;
+    height:15rem;
+}
+
+.feature-item .fa-solid{
+    margin-top: 1.8rem;
+}
+
+.feature-item{
+    height: 100%;
+    width:33.33%;
+    padding:1.3rem;
+}
+
+
+#features h2{
+    margin-top: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+#features #item1{
+    float: left;
+}
+#features #item2{
+    float:left;
+}
+#features #item3{
+    float: right;
+}
+
+#item1:hover , #item2:hover , #item3:hover{
+   background-color: #444;
+   color:#f7c08a;
+}
+
+
+#main-footer{
+    text-align: center;
+    color: white;
+    padding: 1.3rem;
+}
+
+
+@media (max-width:1000px){
+    #container{
+        width: 100%;
+    }
+
+    .feature-item{
+        height:33.33%;
+        width:100%;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .feature-item .fa-solid{
+        float: left;
+        width: 25%;
+    }
+    .feature-item h2{
+        float: left;
+        width:30%;
+    }
+    .feature-item p{
+        float: right;
+        width:45%;
+        margin-top: 1rem;
+    }
+
+    #features{
+        height: fit-content;
+    }
+}
+
+@media (max-width:750px) {
+    #features .feature-item .fa-solid,
+    #features .feature-item h2,
+    #features .feature-item p{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media (max-width:500px){
+   
+    #container{
+        text-align: center;
+    }
+
+    #container #logo,
+    #container ul,
+    #container ul li{
+        float: none;
+    }
+   
+   #navbar ul li a{
+    padding: 10px;
+    border-bottom: 1px dotted #444;
+}
+}
+
+
+
+
+
+
